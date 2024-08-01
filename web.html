@@ -1,0 +1,154 @@
+Here is the updated HTML and CSS code with some added images:
+
+HTML:
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Full Responsive Website</title>
+	<link rel="stylesheet" href="style.css">
+    <style>
+        
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	line-height: 1.6;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 1em;
+	text-align: center;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 2em;
+}
+
+section {
+	background-color: #f7f7f7;
+	padding: 1em;
+	margin-bottom: 20px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+	margin-top: 0;
+}
+
+.responsive-img {
+	width: 100%;
+	height: auto;
+	margin: 20px 0;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 1em;
+	text-align: center;
+	clear: both;
+}
+section ul li{
+   list-style: none;
+}
+
+/* Responsive design */
+
+@media (max-width: 768px) {
+	main {
+		flex-direction: column;
+	}
+	section {
+		margin-bottom: 10px;
+	}
+}
+
+@media (max-width: 480px) {
+	header {
+		padding: 0.5em;
+	}
+	nav li {
+		margin-right: 10px;
+	}
+	main {
+		padding: 1em;
+	}
+	section {
+		margin-bottom: 5px;
+	}
+}
+    </style>
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section>
+			<h1>Welcome to our website</h1>
+			<p>This is a full responsive website</p>
+			<img src="images.jpeg" alt="Image 1" class="responsive-img">
+		</section>
+		<section>
+			<h2>About us</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+			<img src="n1.jpeg" alt="Image 2" class="responsive-img">
+		</section>
+		<section>
+			<h2>Our services</h2>
+			<ul>
+				<li>Service 1</li>
+				<li>Service 2</li>
+				<li>Service 3</li>
+			</ul>
+			<img src="images2.jpeg" alt="Image 3" class="responsive-img">
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2024 Full Responsive Website</p>
+	</footer>
+</body>
+</html>
+
+
+
+
+
+
+
